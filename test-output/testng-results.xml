@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-06T15:47:03 IST" name="Suite" finished-at="2023-12-06T15:47:26 IST" duration-ms="22650">
+    <groups>
+    </groups>
+    <test started-at="2023-12-06T15:47:03 IST" name="Test" finished-at="2023-12-06T15:47:26 IST" duration-ms="22650">
+      <class name="api.test.BookTest">
+        <test-method signature="test_createBook()[pri:0, instance:api.test.BookTest@3d285d7e]" started-at="2023-12-06T15:47:04 IST" name="test_createBook" finished-at="2023-12-06T15:47:13 IST" duration-ms="8953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_createBook -->
+        <test-method signature="test_getAllBooks()[pri:0, instance:api.test.BookTest@3d285d7e]" started-at="2023-12-06T15:47:13 IST" name="test_getAllBooks" finished-at="2023-12-06T15:47:21 IST" duration-ms="7877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_getAllBooks -->
+        <test-method signature="test_updateBook()[pri:0, instance:api.test.BookTest@3d285d7e]" started-at="2023-12-06T15:47:21 IST" name="test_updateBook" finished-at="2023-12-06T15:47:26 IST" duration-ms="5540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_updateBook -->
+      </class> <!-- api.test.BookTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
