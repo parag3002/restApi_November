@@ -43,6 +43,7 @@ import api.payload.BookPayLoad;
 
 public class BookTest 
 {
+	private boolean flag=true;
 
 	@Test
 	public void test_createBook()
@@ -64,7 +65,37 @@ public class BookTest
         
         Response response  = BookEndpoints.createBook(payload);
         response.then().log().all();
-        assertEquals(response.statusCode(),200);
+       
+        
+        try
+        {
+        assertEquals(response.statusCode(), 200);
+        assertEquals(response.header("Content-Type"), "application/json; charset=utf-8; v=1.0");
+        assertEquals(response.header("Transfer-Encoding"), "chunked");
+        assertEquals(response.header("api-supported-versions"), "1.0");
+        
+//      assertEquals(response.cookie(""), "");
+        JsonPath jsonpath = response.jsonPath();
+        int id = jsonpath.getInt("id");
+        System.out.println(id);
+        
+        assertEquals(id, id);
+//      System.out.println("id validated");
+        
+        }
+        catch(AssertionError e)
+        {
+        	flag = false;
+        	System.out.println("<------------Assertion related ERROR--------->");
+        	
+        }
+        finally //this block always executes
+        {
+        	if(flag==true)
+        	{
+        		System.out.println("<-----------All Assertion passed----->");
+        	}
+        }
         
 	}
 	

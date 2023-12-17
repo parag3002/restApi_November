@@ -5,6 +5,8 @@
     <classes>
       <class name="api.test.BookTest">
         <methods>
+          <include name="test_updateBook"/>
+          <include name="test_getAllBooks"/>
           <include name="test_createBook"/>
         </methods>
       </class> <!-- api.test.BookTest -->
