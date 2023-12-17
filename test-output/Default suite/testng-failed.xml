@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="api.test.BookTest">
+      <class name="api.test.RestfulBookerTest">
         <methods>
-          <include name="test_updateBook"/>
-          <include name="test_getAllBooks"/>
-          <include name="test_createBook"/>
+          <include name="test_getBookingByIds"/>
         </methods>
-      </class> <!-- api.test.BookTest -->
+      </class> <!-- api.test.RestfulBookerTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

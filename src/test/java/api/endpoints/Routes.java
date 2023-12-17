@@ -40,4 +40,10 @@ import api.payload.*;
 public class Routes 
 {
 
+	public static String restfulBookeCreateTokenUrl = "auth";
+	public static String restfulBookerGetBookingByIdsUrl = "booking";
+	public static String restfulBookerGetBookingByIdUrl = "booking/{bookingId}";
+	public static String restfulBookerCreateBookingUrl = "booking";
+	public static String restfulBookerPatchBookingUrl = "booking/{bookingId}";
+	
 }

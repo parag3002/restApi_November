@@ -20,7 +20,7 @@ public class PropertyReader
 		String fileData;
 		try
 		{
-		propertyFile = new FileInputStream("C:\\E\\workspaces\\workSpace_RestAssured_P1\\restApi_November\\src\\test\\resources\\routes.properties");
+		propertyFile = new FileInputStream(".\\src\\test\\resources\\routes.properties");
 		property = new Properties();
 			 
 		property.load(propertyFile);

@@ -9,6 +9,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="api.test.BookTest"/>
+      <class name="api.test.RestfulBookerTest"/>
     </classes>
   </test> <!-- Test -->
   
