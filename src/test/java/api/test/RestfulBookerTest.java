@@ -14,6 +14,7 @@ import java.util.List;
 import org.json.JSONObject;
 import org.json.JSONTokener;
 import org.testng.ITestContext;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
@@ -36,6 +37,7 @@ import jdk.internal.net.http.common.Log;
 import net.sf.saxon.exslt.Math;
 
 import api.payload.*;
+import api.utilities.DataProviders;
 import api.utilities.PropertyReader;
 import api.*;
 import api.endpoints.*;
@@ -132,6 +134,32 @@ public class RestfulBookerTest
 		
 		response.then().log().all();
 	}
+	
+	
+	
+	@Test(priority = 6 , dataProvider = "AllData" , dataProviderClass = DataProviders.class)
+	public void test_dataDrivenCreateBooking(String firstname, String lastname, String totalprice, String depositpaid, String checkin, String checkout, String additionalneeds)
+	{
+		RestfulBookingCreateBooking payload = new RestfulBookingCreateBooking();
+		RestfulApibookingdates bookingdates = new RestfulApibookingdates();
+		
+		payload.setFirstname(firstname);
+		payload.setLastname(lastname);
+		payload.setTotalprice(Integer.parseInt(totalprice));
+		payload.setDepositpaid(Boolean.parseBoolean(depositpaid));
+			bookingdates.setCheckin(checkin);
+			bookingdates.setCheckout(checkout);
+		payload.setBookingdates(bookingdates);
+		payload.setAdditionalneeds(additionalneeds);
+		
+		
+		Response response = RestfulBooking.createBooking(payload);
+		
+		response.then().log().all();
+		assertEquals(response.statusCode(), 200);
+		
+	}
+	
 	
 
 }

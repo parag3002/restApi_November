@@ -5,7 +5,7 @@
     <classes>
       <class name="api.test.RestfulBookerTest">
         <methods>
-          <include name="test_getBookingByIds"/>
+          <include name="test_dataDrivenCreateBooking"/>
         </methods>
       </class> <!-- api.test.RestfulBookerTest -->
     </classes>

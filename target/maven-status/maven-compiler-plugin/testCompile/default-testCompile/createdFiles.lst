@@ -1,6 +1,7 @@
 api\utilities\PropertyReader.class
 api\test\BookTest.class
 api\utilities\ExtentReportManager.class
+api\utilities\DataProviders.class
 api\utilities\ExcelReader.class
 api\payload\RestfulBookerPatch.class
 api\endpoints\Routes.class
@@ -8,6 +9,7 @@ api\endpoints\RestfulBooking.class
 api\payload\RestfulApibookingdates.class
 api\payload\RestfulBookingCreateBooking.class
 api\payload\RestfulBookingPayload.class
+api\utilities\ExcelUtility.class
 api\test\RestfulBookerTest.class
 api\endpoints\BookEndpoints.class
 api\payload\BookPayLoad.class

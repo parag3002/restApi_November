@@ -1,46 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-17T22:12:09 IST" name="Suite" finished-at="2023-12-17T22:12:40 IST" duration-ms="30487">
+  <suite started-at="2023-12-18T20:32:36 IST" name="Suite" finished-at="2023-12-18T20:33:47 IST" duration-ms="71151">
     <groups>
     </groups>
-    <test started-at="2023-12-17T22:12:09 IST" name="Test" finished-at="2023-12-17T22:12:40 IST" duration-ms="30487">
+    <test started-at="2023-12-18T20:32:36 IST" name="Test" finished-at="2023-12-18T20:33:47 IST" duration-ms="71151">
       <class name="api.test.BookTest">
-        <test-method signature="test_createBook()[pri:0, instance:api.test.BookTest@2a65fe7c]" started-at="2023-12-17T22:12:10 IST" name="test_createBook" finished-at="2023-12-17T22:12:13 IST" duration-ms="3151" status="PASS">
+        <test-method signature="test_createBook()[pri:0, instance:api.test.BookTest@4135c3b]" started-at="2023-12-18T20:32:36 IST" name="test_createBook" finished-at="2023-12-18T20:32:39 IST" duration-ms="3208" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_createBook -->
-        <test-method signature="test_getAllBooks()[pri:0, instance:api.test.BookTest@2a65fe7c]" started-at="2023-12-17T22:12:13 IST" name="test_getAllBooks" finished-at="2023-12-17T22:12:22 IST" duration-ms="8967" status="PASS">
+        <test-method signature="test_getAllBooks()[pri:0, instance:api.test.BookTest@4135c3b]" started-at="2023-12-18T20:32:39 IST" name="test_getAllBooks" finished-at="2023-12-18T20:33:18 IST" duration-ms="38886" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_getAllBooks -->
-        <test-method signature="test_updateBook()[pri:0, instance:api.test.BookTest@2a65fe7c]" started-at="2023-12-17T22:12:22 IST" name="test_updateBook" finished-at="2023-12-17T22:12:23 IST" duration-ms="862" status="PASS">
+        <test-method signature="test_updateBook()[pri:0, instance:api.test.BookTest@4135c3b]" started-at="2023-12-18T20:33:18 IST" name="test_updateBook" finished-at="2023-12-18T20:33:23 IST" duration-ms="4639" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_updateBook -->
       </class> <!-- api.test.BookTest -->
       <class name="api.test.RestfulBookerTest">
-        <test-method signature="test_getBookingByIds()[pri:1, instance:api.test.RestfulBookerTest@7c7b252e]" started-at="2023-12-17T22:12:23 IST" name="test_getBookingByIds" finished-at="2023-12-17T22:12:30 IST" duration-ms="7297" status="PASS">
+        <test-method signature="test_getBookingByIds()[pri:1, instance:api.test.RestfulBookerTest@4d5d943d]" started-at="2023-12-18T20:33:23 IST" name="test_getBookingByIds" finished-at="2023-12-18T20:33:25 IST" duration-ms="1912" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_getBookingByIds -->
-        <test-method signature="test_createToken()[pri:2, instance:api.test.RestfulBookerTest@7c7b252e]" started-at="2023-12-17T22:12:30 IST" name="test_createToken" finished-at="2023-12-17T22:12:31 IST" duration-ms="1570" status="PASS">
+        <test-method signature="test_createToken()[pri:2, instance:api.test.RestfulBookerTest@4d5d943d]" started-at="2023-12-18T20:33:25 IST" name="test_createToken" finished-at="2023-12-18T20:33:28 IST" duration-ms="3453" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_createToken -->
-        <test-method signature="test_getBookingById()[pri:3, instance:api.test.RestfulBookerTest@7c7b252e]" started-at="2023-12-17T22:12:31 IST" name="test_getBookingById" finished-at="2023-12-17T22:12:34 IST" duration-ms="2634" status="PASS">
+        <test-method signature="test_getBookingById()[pri:3, instance:api.test.RestfulBookerTest@4d5d943d]" started-at="2023-12-18T20:33:28 IST" name="test_getBookingById" finished-at="2023-12-18T20:33:39 IST" duration-ms="10663" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_getBookingById -->
-        <test-method signature="test_createBooking()[pri:4, instance:api.test.RestfulBookerTest@7c7b252e]" started-at="2023-12-17T22:12:34 IST" name="test_createBooking" finished-at="2023-12-17T22:12:38 IST" duration-ms="3617" status="PASS">
+        <test-method signature="test_createBooking()[pri:4, instance:api.test.RestfulBookerTest@4d5d943d]" started-at="2023-12-18T20:33:39 IST" name="test_createBooking" finished-at="2023-12-18T20:33:41 IST" duration-ms="2411" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_createBooking -->
-        <test-method signature="patchBooking()[pri:5, instance:api.test.RestfulBookerTest@7c7b252e]" started-at="2023-12-17T22:12:38 IST" name="patchBooking" finished-at="2023-12-17T22:12:40 IST" duration-ms="2084" status="PASS">
+        <test-method signature="patchBooking()[pri:5, instance:api.test.RestfulBookerTest@4d5d943d]" started-at="2023-12-18T20:33:41 IST" name="patchBooking" finished-at="2023-12-18T20:33:43 IST" duration-ms="2260" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- patchBooking -->
+        <test-method signature="test_dataDrivenCreateBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:api.test.RestfulBookerTest@4d5d943d]" started-at="2023-12-18T20:33:45 IST" name="test_dataDrivenCreateBooking" data-provider="AllData" finished-at="2023-12-18T20:33:47 IST" duration-ms="1588" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Manisha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Koirala]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3232]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[12/12/23]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[12/14/23]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Tour]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_dataDrivenCreateBooking -->
       </class> <!-- api.test.RestfulBookerTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

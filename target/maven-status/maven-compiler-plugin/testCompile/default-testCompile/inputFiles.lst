@@ -1,5 +1,7 @@
 C:\E\workspaces\workSpace_RestAssured_P1\restApi_November\src\test\java\api\payload\RestfulBookerPatch.java
 C:\E\workspaces\workSpace_RestAssured_P1\restApi_November\src\test\java\api\payload\RestfulBookingPayload.java
+C:\E\workspaces\workSpace_RestAssured_P1\restApi_November\src\test\java\api\utilities\DataProviders.java
+C:\E\workspaces\workSpace_RestAssured_P1\restApi_November\src\test\java\api\utilities\ExcelUtility.java
 C:\E\workspaces\workSpace_RestAssured_P1\restApi_November\src\test\java\api\utilities\ExtentReportManager.java
 C:\E\workspaces\workSpace_RestAssured_P1\restApi_November\src\test\java\api\utilities\ExcelReader.java
 C:\E\workspaces\workSpace_RestAssured_P1\restApi_November\src\test\java\api\endpoints\Routes.java
