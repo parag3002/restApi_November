@@ -1,0 +1,11 @@
+{
+    "firstname" : "Name1",
+    "lastname" : "JohnJony",
+    "totalprice" : 333,
+    "depositpaid" : false,
+    "bookingdates" : {
+        "checkin" : "2033-01-01",
+        "checkout" : "2034-01-01"
+    },
+    "additionalneeds" : "RoamAround"
+}

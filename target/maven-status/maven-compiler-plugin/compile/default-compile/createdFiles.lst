@@ -16,9 +16,14 @@ javaCode\inheritance\ParentClass.class
 javaCode\polymorphism\overriding_dynamicMethodDispatch_lateBinding\Laptop.class
 javaCode\encapsulation\MainClass.class
 javaCode\interfaceConcept\interfacee\ClassChildA.class
+javaCode\wrapperClass\WrapperClass.class
 javaCode\polymorphism\overloading_staticMethodDispatch_earlyBinding\MainClass.class
 javaCode\inheritance\ChildA.class
 javaCode\polymorphism\overriding_dynamicMethodDispatch_lateBinding\PDA.class
+javaCode\interfaceConcept\interfacee\B1.class
+javaCode\javaBasic\CollectionsA.class
+javaCode\interfaceConcept\interfacee\A1.class
+javaCode\interfaceConcept\interfacee\C1.class
 javaCode\polymorphism\overriding_dynamicMethodDispatch_lateBinding\Gadget.class
 javaCode\constructor\ChildA.class
 javaCode\polymorphism\overloading_staticMethodDispatch_earlyBinding\OverloadingMethod.class

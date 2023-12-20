@@ -13,3 +13,25 @@ public class MainClass
 	}
 	
 }
+
+
+// Hybrid Interface
+
+interface A1
+{
+	public void ride();
+
+}
+
+interface B1
+{
+	public void ride();
+}
+
+class C1 implements A1 , B1
+{
+	public void ride() 
+	{
+		System.out.println("Override");
+	}
+}

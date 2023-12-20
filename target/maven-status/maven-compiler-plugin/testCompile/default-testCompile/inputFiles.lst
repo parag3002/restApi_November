@@ -11,5 +11,8 @@ C:\E\workspaces\workSpace_RestAssured_P1\restApi_November\src\test\java\api\test
 C:\E\workspaces\workSpace_RestAssured_P1\restApi_November\src\test\java\api\payload\RestfulBookingCreateBooking.java
 C:\E\workspaces\workSpace_RestAssured_P1\restApi_November\src\test\java\api\utilities\PropertyReader.java
 C:\E\workspaces\workSpace_RestAssured_P1\restApi_November\src\test\java\api\payload\BookPayLoad.java
+C:\E\workspaces\workSpace_RestAssured_P1\restApi_November\src\test\java\api\payload\RegressionPayload.java
 C:\E\workspaces\workSpace_RestAssured_P1\restApi_November\src\test\java\api\test\BookTest.java
+C:\E\workspaces\workSpace_RestAssured_P1\restApi_November\src\test\java\api\endpoints\Regression.java
+C:\E\workspaces\workSpace_RestAssured_P1\restApi_November\src\test\java\api\test\RegressionTest.java
 C:\E\workspaces\workSpace_RestAssured_P1\restApi_November\src\test\java\api\endpoints\BookEndpoints.java

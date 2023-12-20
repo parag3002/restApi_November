@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="api.test.RestfulBookerTest">
+      <class name="api.test.RegressionTest">
         <methods>
-          <include name="test_dataDrivenCreateBooking"/>
+          <include name="testJsonSchemaVerify"/>
         </methods>
-      </class> <!-- api.test.RestfulBookerTest -->
+      </class> <!-- api.test.RegressionTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

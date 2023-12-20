@@ -10,6 +10,7 @@
     <classes>
       <class name="api.test.BookTest"/>
       <class name="api.test.RestfulBookerTest"/>
+      <class name ="api.test.RegressionTest"/>
     </classes>
   </test> <!-- Test -->
   
